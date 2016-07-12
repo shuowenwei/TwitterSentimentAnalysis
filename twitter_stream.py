@@ -8,10 +8,10 @@
 from twython import TwythonStreamer
 
 # insert your app developer keys here
-CONSUMER_KEY = 'vDZ5rjMi7yYlUSE455X2hg'
-CONSUMER_SECRET = 'EG09Ubi0skswNaKDYgwxhVYRiQhR1hpf6mVBkuFUj4'
-ACCESS_TOKEN_KEY = '2314628120-HqxPNjlZz8dCVQ3KU5qCb9qVh0CS99EEBGb7UBf'
-ACCESS_TOKEN_SECRET = 'adGPU7MoMeRx6N0gTmpjaCnDC4PUVA6kjrykELotQtkhm'
+CONSUMER_KEY = your key 
+CONSUMER_SECRET = your secret
+ACCESS_TOKEN_KEY = your TOKEN_KEY
+ACCESS_TOKEN_SECRET = your TOKEN_SECRET
 
 class MyStreamer(TwythonStreamer):
     # on_success is a callback for every tweet that gets through the filter
